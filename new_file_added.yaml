@@ -1,0 +1,17 @@
+name: new_file_added
+pack: git_hub_sens
+description: Triggered when a new file is added to the GitHub repository.
+enabled: true
+type: git_hub_sens.new_file_added
+payload_info:
+  type: object
+  properties:
+    repo_owner:
+      type: string
+      description: Owner of the GitHub repository.
+    repo_name:
+      type: string
+      description: Name of the GitHub repository.
+    file_name:
+      type: string
+      description: Name of the newly added file.
