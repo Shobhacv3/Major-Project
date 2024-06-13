@@ -1,0 +1,11 @@
+			Day 2
+
+Connecting localmachine(Windows) to remote server without giving username and password.
+1.first we need to generate keys in local machine.
+	Generate keys using putty gen
+		open putty gen--> click on generate.
+		Save the public key and private key.
+
+3. open putty 
+	SSH-->Auth-->Credentials
+	browse the created private key 
